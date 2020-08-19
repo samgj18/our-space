@@ -3,10 +3,10 @@ module.exports = {
     title: `Our Space`,
     author: {
       name: `Samuel Gomez`,
-      summary: `Our little corner in the internet`,
+      summary: `Our little corner on the internet`,
     },
     description: `Personal blog by Samuel Gomez. Code, life, and machine learning`,
-    siteUrl: `https://ourspace.netlify.app/`,
+    siteUrl: `http://ourspace.tech/`,
     social: {
       twitter: `samgj18`,
     },
@@ -30,6 +30,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-reading-time`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -60,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Our Space`,
+        short_name: `Our Space`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -76,8 +77,5 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

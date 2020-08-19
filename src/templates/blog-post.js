@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import Mail from "../components/mail"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -34,7 +35,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               marginBottom: rhythm(1),
             }}
           >
-            {post.frontmatter.date}
+            {post.frontmatter.date} · {post.timeToRead} min reading
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -43,7 +44,24 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             marginBottom: rhythm(1),
           }}
         />
+        <Mail />
         <footer>
+          <h3
+            style={{
+              fontFamily: `Montserrat, sans-serif`,
+              marginTop: 0,
+            }}
+          >
+            <Link
+              style={{
+                boxShadow: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {siteTitle}
+            </Link>
+          </h3>
           <Bio />
         </footer>
       </article>
@@ -91,6 +109,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
