@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 // import Toggle from "./toggle"
 import { rhythm, scale } from "../utils/typography"
 
-import open from "../assets/open.png"
-import close from "../assets/close.png"
+// import open from "../assets/open.png"
+// import close from "../assets/close.png"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`

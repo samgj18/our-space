@@ -13,6 +13,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://samuelgomez.us17.list-manage.com/subscribe/post?u=656521d2f1d081db649218d01&amp;id=2516fdb8e9",
+        timeout: 3500,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
