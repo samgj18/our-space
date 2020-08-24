@@ -1,0 +1,24 @@
+/* global.css */
+
+body {
+  --bg: white;
+  --textNormal: #222;
+  --textTitle: #222;
+  --textLink: blue;
+  --hr: hsla(0, 0%, 0%, 0.2);
+  --a: hsla(256, 67%, 63%, 1);
+  margin: 0;
+  background-color: var(--bg);
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  --bg: rgb(30, 33, 40);
+  --textNormal: rgba(255, 255, 255, 0.88);
+  --textTitle: white;
+  --textLink: yellow;
+  --hr: hsla(0, 0%, 100%, 0.2);
+  --a: hsla(256, 67%, 63%, 0.7);
+}
