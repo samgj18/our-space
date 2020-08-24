@@ -22,7 +22,7 @@ Learning can be very exciting, but is, leastwise, exhausting. I had to make a de
 
 ## Reality check
 
-I started applying for data science positions on some companies, but "_reality check_" **THEY WOULD NOT HIRE ME, AND MANY OF THE WOULD NOT EVEN CALL ME**. So I started wondering why?. Not going to lie, it was devastating... but what a humbling experience it was... five months learning a new thing doesn't build an expert. I wasn't ready (I'm still not) and I didn't want to accept that.
+I started applying for data science positions on some companies, but "_reality check_" **THEY WOULD NOT HIRE ME, AND MANY OF THEM WOULD NOT EVEN CALL ME**. So I started wondering why?. Not going to lie, it was devastating... but what a humbling experience it was... five months learning a new thing doesn't build an expert. I wasn't ready (I'm still not) and I didn't want to accept that.
 
 ## Not giving up
 
