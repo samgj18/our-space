@@ -253,4 +253,4 @@ svr_linear.score(X_train, y_train)))
 
 **You can find the live project [here](https://housing-prices-boston-app.herokuapp.com/).**
 
-I know this are not the best of results, however the idea is to show how easy and fast can be to build and app with Streamlit. Next post will be about how to create a Streamlit project from scratch and deploy to Heroku or an EC2 aws instance. See you around!
+I know these are not the best of results, however the idea is to show how easy and fast can be to build and app with Streamlit. Next post will be about how to create a Streamlit project from scratch and deploy to Heroku or an EC2 aws instance. See you around!
