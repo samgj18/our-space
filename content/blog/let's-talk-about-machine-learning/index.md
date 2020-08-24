@@ -6,7 +6,7 @@ description: So... I decided to learn Machine Learning
 
 About five months ago I was laying in my bed, just harking the wind and thinking all those futile questions that generally lead nowhere. Those type of questions that every beginner programmer makes to himself.
 
-The question that resonated the most was **what should I learn now?** I had just "finished" learning C, had some prior experience with javascript and web development, and also, for my thesis at the university, I was forced to learn Python. My head was like a big sea of knowledge.. with two inches depth. But there I was thinking about _learning_ a new tech. The idea came to me, like lightning, let's learn Machine Learning, I said. Being completely honest, I had no clue that it was going to be both difficult and beneficial becuase the notion that I had on machine learning was at the other corner of what it turned out to be, let me break down this little journey into smaller pieces:
+The question that resonated the most was **what should I learn now?** I had just "finished" learning C, had some prior experience with javascript and web development, and also, for my thesis at the university, I was forced to learn Python. My head was like a big sea of knowledge.. with two inches depth. But there I was thinking about _learning_ a new tech. The idea came to me, like lightning, let's learn Machine Learning. Being completely honest, I had no clue that it was going to be both difficult and beneficial becuase the notion that I had on machine learning was at the other corner of what it turned out to be, let me break down this little journey into smaller pieces:
 
 ## Mysticism
 
