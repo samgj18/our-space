@@ -1,10 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-// import Toggle from "./toggle"
+import Toggle from "./toggle.js"
 import { rhythm, scale } from "../utils/typography"
-
-// import open from "../assets/open.png"
-// import close from "../assets/close.png"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -58,6 +55,9 @@ const Layout = ({ location, title, children }) => {
         marginRight: `auto`,
         maxWidth: rhythm(24),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        backgroundColor: "var(--bg)",
+        color: "var(--textNormal)",
+        transition: "color 0.3s ease-out, background 0.3s ease-out",
       }}
     >
       <header
@@ -69,29 +69,9 @@ const Layout = ({ location, title, children }) => {
         }}
       >
         {header}
-        {/* <Toggle
-          icons={{
-            checked: (
-              <img
-                src={close}
-                width="16"
-                height="16"
-                role="presentation"
-                style={{ pointerEvents: "none" }}
-              />
-            ),
-            unchecked: (
-              <img
-                src={open}
-                width="16"
-                height="16"
-                role="presentation"
-                style={{ pointerEvents: "none" }}
-              />
-            ),
-          }}
-        /> */}
+        <Toggle />
       </header>
+
       <main>{children}</main>
     </div>
   )
