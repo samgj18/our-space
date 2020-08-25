@@ -1,7 +1,7 @@
 ---
 title: This power that flows in my veins
 date: "2020-08-24T16:53:32.169Z"
-description: Streamlit, remarkable power for data scientist
+description: Streamlit, remarkable power for data scientists
 ---
 
 ### So, I found this [new framework](https://www.streamlit.io/) and decided to play around a little
