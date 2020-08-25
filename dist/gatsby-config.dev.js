@@ -50,7 +50,7 @@ module.exports = {
     resolve: "gatsby-plugin-google-analytics",
     options: {//trackingId: `ADD YOUR TRACKING ID HERE`,
     }
-  }, "gatsby-plugin-dark-mode", "gatsby-plugin-feed", {
+  }, "gatsby-plugin-dark-mode", "gatsby-plugin-feed", "gatsby-plugin-sitemap", {
     resolve: "gatsby-plugin-manifest",
     options: {
       name: "Our Space",
