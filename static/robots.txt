@@ -1,2 +1,2 @@
 User-agent: *
-Disallow:
+sitemap: https://ourspace.tech/sitemap.xml
