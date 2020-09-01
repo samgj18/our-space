@@ -27,12 +27,12 @@ There are different types of Machine Learning systems, that's why they're catego
 
 Labeled data is data that has the desired solution, for example, you want to create a model that predicts the price of houses in a particular area. To do so you need examples of houses with their respective prices and attributes.
 
-\*_The most common tasks Supervised Learning has are:_
+_The most common tasks Supervised Learning has are:_
 
 - Classification: Deciding if a person is most likely to have diabetes or not according to his eating habbits.
 - Regression (Targeting numeric values): Predicting the price of a product based of previous prices and the characteristics of that product.
 
-**In the other hand the most common tasks of Unsupervised Learning are:**
+_The most common tasks of Unsupervised Learning are:_
 
 - Clustering: Detecting groups of similar visitors in a webpage.
 - Anomaly detection and novelty detection: Detecting fraud or unusual use of a credit card.
@@ -43,28 +43,37 @@ Labeled data is data that has the desired solution, for example, you want to cre
 
 Say we have a robot, what type of algorithm would help in order to allow it to walk in various terrains? - **Reinforcement Learning**, this type of learning let machines to create the best strategies to maximize the rewards of their behavior.
 
-### What type of algorithm would you use to segment your customers into multiple groups?
+For this particular blog I have no track of visitors, people come and go as they please. But I could use **clustering algorithm** to try to detect groups of similar visitors and segment the newsletter depending on the posts that they have read.
 
-### Would you frame the problem of spam detection as a supervised learning prob‐ lem or an unsupervised learning problem?
+**Online Learning** means that you train your system incrementally, by feeding instances sequentially, in small groups that are called _mini-batches_. This type of learning is widely used when the amount of data is huge, so huge that doesn't fit in one machine's memory so is splitted into multiple instances or machines and the algorithm loads part of the data, learns, and move on repeating the process.
 
-### What is an online learning system?
+Just like humans, algorithms have a way to learn. Some of them learn by similarities and some of them try to learn the critical information of the dataset and make predictions based on that. These are **Instance-Based** and **Model-Based** algorithms respectively.
 
-### What is out-of-core learning?
+Algorithms have both **model parameters** that can be inferred from the data and external parameters or **hyperparameters**. Let's say we've trained a model and the performance of the model is very good. One way to avoid overfitting is to choose a **regularization hyperparameter** that prevents it.
 
-### What type of learning algorithm relies on a similarity measure to make predic‐ tions?
+---
 
-### What is the difference between a model parameter and a learning algorithm’s hyperparameter?
+## Some challenges of ML
 
-### What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?
+Last but not least, when it comes to ML there are five challenges that are critical to handle in order to get the best out of every model:
 
-### Can you name four of the main challenges in Machine Learning?
+- [Insufficient Quantity of Training Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
 
-### If your model performs great on the training data but generalizes poorly to new instances, what is ### happening? Can you name three possible solutions?
+- [Nonrepresentative Training Data](https://www.math.upenn.edu/~deturck/m170/wk4/lecture/case1.html)
 
-### What is a test set, and why would you want to use it?
+- [Poor-Quality Data](https://www.talend.com/resources/machine-learning-data-quality/)
 
-### What is the purpose of a validation set?
+- [Overfitting the Training Data](https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/)
 
-### What is the train-dev set, when do you need it, and how do you use it?
+- [Underfitting the Training Data](https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/)
 
-### What can go wrong if you tune hyperparameters using the test set?
+Those two require a more in depth explanation that will come in the next post along with some new concepts as **Testing, Validating, Hyperparameter Tuning, Model Selection and Data Mismatch**.
+
+Sumary:
+
+Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed.
+
+- There are different types of ML systems: supervised or semisupervised, unsupervised, batch or online among others
+- In a ML project you gather data in a training set, and you feed the training set to a learning algorithm. If the algorithm is model-based it learns the critical information of the dataset and make predictions based on that. If the algorithm is instance-based, it just learns by heart and predicts by similiraties.
+
+### Again, all credits to Aurélien Gerón and to you guys that take the time to read.
