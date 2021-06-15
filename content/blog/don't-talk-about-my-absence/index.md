@@ -17,11 +17,11 @@ I applied to companies untiringly, I turned into a serial applicant, you could s
 
 > *Samuel*, she said. *We're looking for Senior Software Engineers to build the next best platform for jobs, are you in?*
 
-Don't remember why but I do remember that I was too stressed to care at the moment. So I said yes with no hope nor interest in the offer. That weekend I sat down and made the test the sent the last reasonable effort, I thought.
+Don't remember why but I do remember that I was too stressed to care at the moment. So I said yes with no hope nor interest in the offer. That weekend I sat down and made the test to send the last reasonable effort.
 
 **Two weeks later, on December 24... they called me...**
 
-I've been working in Torre as an SWE for four months now. What a challenging experience, what a journey has been to get a job this good at these uncertain times.
+I've been working in Torre as a Software Engineer for four months now. What a challenging experience, what a journey has been to get a job this good at these uncertain times.
 
 If you're out there reading this and see yourself in the mirror, thinking that there's no space for you in Tech Industry, do not despair. Instead, keep pushing and keep learning.
 
